@@ -11,15 +11,15 @@ public class Solution {
         int i,t;
        BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
         t=Integer.parseInt(br.readLine());
-        String s1[]=new String[50];
+        String s1[]=new String[10000];
    for( i=0;i<t;i++)
    { 
     s1[i]=br.readLine();
    }
   for(i=0;i<t;i++)
   { int j,n,count=0,count1=0; 
-    char r[]=new char[100];
-    char k[]=new char[100];
+    char r[]=new char[10000];
+    char k[]=new char[10000];
 for(j=0;j<s1[i].length();j++)
      {
          if((j%2)==0)
